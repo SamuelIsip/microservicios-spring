@@ -1,2 +1,7 @@
-server.port = 8082
-spring.application.name=coche
+spring:
+  application:
+    name: coche
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8001
